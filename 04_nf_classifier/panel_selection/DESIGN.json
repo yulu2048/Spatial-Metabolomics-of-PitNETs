@@ -1,0 +1,11 @@
+{
+  "pool": "55 unique MSI features with prior reasonable-host LC candidate annotations; LC abundance never loaded",
+  "association": "On training 10x10 ROIs: all specimen-pair rank AUCs; choose target class and high/low direction with greatest WORST pair AUC; require worst AUC>=0.75 and smallest signed specimen mean log2 gap>=0.25",
+  "shortlist": "All eligible features; ranking for reporting only, no top-N truncation",
+  "search": "Exhaustive search of every five-feature subset among all features passing the training-set association screen; no feature-identity exclusion, mutual-exclusion rule, or m/z-composition rule; maximize inner spatial class/specimen weighted recall then minimize logloss",
+  "classifier": "Weighted standardized shrinkage LDA: lambda0.75 diagonal ridge1e-4",
+  "validation": "4 outer spatial folds; re-screen all55 within each outer train; repeat association filtering and five-feature selection inside each outer training set; overlap+2pixel buffer purged. The full-data selected panel then receives a clearly labeled conditional spatial assessment with fold-specific refitting.",
+  "weights": "Equal classes, equal physical specimens within class, equal ROIs within specimen",
+  "scope": "Spatial performance in existing specimens. GH and ACTH each n1, GnH n3. No new-patient generalization or class significance claim.",
+  "input_sha256": "a2cb6d3864f788a9ea36bfcd0d90f96c752f59a552c14c0b69415c3a7396ebb8"
+}

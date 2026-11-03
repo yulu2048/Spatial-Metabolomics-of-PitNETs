@@ -1,0 +1,13 @@
+sample_id,diagnosis,source_id,batch_id,relative_file,imzml_file,ibd_file
+GH-1,GH,GH,batch_1,MSI/data/GH.imzML,/home/gaga/huzhan/MSI/data/GH.imzML,/home/gaga/huzhan/MSI/data/GH.ibd
+GH-2,GH,gh_1,batch_1,Other_MSI/gh_1 - total ion count.imzML,/home/gaga/huzhan/Other_MSI/gh_1 - total ion count.imzML,/home/gaga/huzhan/Other_MSI/gh_1 - total ion count.ibd
+GH-3,GH,gh_2,batch_1,Other_MSI/gh_2 - total ion count.imzML,/home/gaga/huzhan/Other_MSI/gh_2 - total ion count.imzML,/home/gaga/huzhan/Other_MSI/gh_2 - total ion count.ibd
+NF-GH,NF-GH,NF_GH,batch_1,MSI/data/NF_GH.imzML,/home/gaga/huzhan/MSI/data/NF_GH.imzML,/home/gaga/huzhan/MSI/data/NF_GH.ibd
+NF-ACTH,NF-ACTH,NF_ACTH,batch_1,MSI/data/NF_ACTH.imzML,/home/gaga/huzhan/MSI/data/NF_ACTH.imzML,/home/gaga/huzhan/MSI/data/NF_ACTH.ibd
+Cushing-1,Cushing,Cushing,batch_1,MSI/data/Cushing.imzML,/home/gaga/huzhan/MSI/data/Cushing.imzML,/home/gaga/huzhan/MSI/data/Cushing.ibd
+Cushing-2,Cushing,cushing_0,batch_1,Other_MSI/cushing_0 - total ion count.imzML,/home/gaga/huzhan/Other_MSI/cushing_0 - total ion count.imzML,/home/gaga/huzhan/Other_MSI/cushing_0 - total ion count.ibd
+NF-GnH-1,NF-GnH,NF_CXX,batch_1,MSI/data/NF_CXX.imzML,/home/gaga/huzhan/MSI/data/NF_CXX.imzML,/home/gaga/huzhan/MSI/data/NF_CXX.ibd
+NF-GnH-2,NF-GnH,nf_cxx,batch_1,NF_prediction/nf_cxx - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx - total ion count.ibd
+NF-GnH-3,NF-GnH,nf_cxx_1,batch_1,NF_prediction/nf_cxx_1 - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx_1 - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx_1 - total ion count.ibd
+NF-GnH-3,NF-GnH,nf_cxx_2,batch_1,NF_prediction/nf_cxx_2 - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx_2 - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx_2 - total ion count.ibd
+NF-GnH-3,NF-GnH,nf_cxx_3,batch_1,NF_prediction/nf_cxx_3 - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx_3 - total ion count.imzML,/home/gaga/huzhan/NF_prediction/nf_cxx_3 - total ion count.ibd

@@ -1,0 +1,64 @@
+{
+  "matrix_version": "consensus_tuned225",
+  "features": 274,
+  "patients": 7,
+  "pixels": 29656,
+  "LC_used": false,
+  "seed": 20260914,
+  "primary": "log2(1 + all-tumor-pixel mean(TIC signal)*1e6); equal sample weights",
+  "candidate": {
+    "abs_effect": 0.5,
+    "oriented_pairwise_concordance": 0.8,
+    "leave_one_functional_direction": true,
+    "high_group_eligible_fraction": 0.6666666666666666,
+    "eligible_detection": 0.1,
+    "eligible_positive_pixels": 20
+  },
+  "robust_candidate_additional": {
+    "minimum_pairwise_margin": 0.5,
+    "median_centered_same_direction": true,
+    "minimum_multiscale_spatial_support": 0.8
+  },
+  "bootstrap": {
+    "widths": [
+      5,
+      10,
+      20
+    ],
+    "replicates": [
+      100,
+      300,
+      100
+    ],
+    "resampling": "blocks within source within sample; conditional spatial uncertainty, not biological replication"
+  },
+  "FDR": "exact two-sided sample label permutation, BH per contrast across 274 peaks",
+  "singleton_limitation": "cannot estimate population variance or assess leave-one-out for NF samples",
+  "input_md5": [
+    {
+      "file": "/home/gaga/huzhan/MSI_ALL_aligned_10samples_consensus_tuned225/pixel_by_feature_matrix_aligned_TIC.rds",
+      "size": 106422224,
+      "md5": "d708ccb8c9c01b35ee37322528728926"
+    },
+    {
+      "file": "/home/gaga/huzhan/MSI_ALL_aligned_10samples_consensus_tuned225/feature_mz_aligned_filtered.rds",
+      "size": 1864,
+      "md5": "84393ef4812df59aeba46e0590555690"
+    },
+    {
+      "file": "/home/gaga/huzhan/MSI_ALL_aligned_10samples_consensus_tuned225/pixel_metadata_sample_source_xy.rds",
+      "size": 345156,
+      "md5": "eca300f50d856ce11123142e0b04e7f6"
+    },
+    {
+      "file": "/home/gaga/huzhan/MSI_ALL_aligned_10samples_consensus_tuned225/intratumor_spatial_heterogeneity_10samples_part1_consensus_tuned225/tumor_pixels_within_sample_consensus_domains.rds",
+      "size": 1977874,
+      "md5": "01486d5ab237994bb1c7f4c0de896ea1"
+    },
+    {
+      "file": "/home/gaga/huzhan/MSI_ALL_aligned_11samples_consensus0.1Da/lc_ms_ms.csv",
+      "size": 25984288,
+      "md5": "603e59554bf10067f0fdcef3c1000470"
+    }
+  ]
+}

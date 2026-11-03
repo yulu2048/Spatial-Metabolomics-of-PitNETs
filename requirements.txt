@@ -1,0 +1,11 @@
+numpy
+pandas
+scipy
+matplotlib
+openpyxl
+pypdf
+pypdfium2
+Pillow
+pdfplumber
+reportlab
+

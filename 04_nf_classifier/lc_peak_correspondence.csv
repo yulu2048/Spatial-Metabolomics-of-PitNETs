@@ -1,0 +1,6 @@
+feature_id,LC_ID,putative_name,role
+f10,MEDP0525,N-Acetyl-L-alanine,candidate_correspondence_only
+f16,ME0106393,Glutamine,candidate_correspondence_only
+f71,ME0161102,Glutathione,candidate_correspondence_only
+f81,ME0012492,15-oxoETE,candidate_correspondence_only
+f139,ME0054571,LPE(0:0_18:0),candidate_correspondence_only
